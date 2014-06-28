@@ -1,0 +1,494 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'karma-coffee-preprocessor',
+1 verbose cli   '--save-dev' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'karma-coffee-preprocessor', null ]
+6 verbose cache add name=undefined spec="karma-coffee-preprocessor" args=["karma-coffee-preprocessor",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'karma-coffee-preprocessor',
+7 verbose parsed url   path: 'karma-coffee-preprocessor',
+7 verbose parsed url   href: 'karma-coffee-preprocessor' }
+8 silly lockFile 9999fa00-karma-coffee-preprocessor karma-coffee-preprocessor
+9 verbose lock karma-coffee-preprocessor C:\Users\aoeu\AppData\Roaming\npm-cache\9999fa00-karma-coffee-preprocessor.lock
+10 silly lockFile 9999fa00-karma-coffee-preprocessor karma-coffee-preprocessor
+11 silly lockFile 9999fa00-karma-coffee-preprocessor karma-coffee-preprocessor
+12 verbose addNamed [ 'karma-coffee-preprocessor', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 1283a25a-karma-coffee-preprocessor karma-coffee-preprocessor@
+15 verbose lock karma-coffee-preprocessor@ C:\Users\aoeu\AppData\Roaming\npm-cache\1283a25a-karma-coffee-preprocessor.lock
+16 silly addNameRange { name: 'karma-coffee-preprocessor', range: '*', hasData: false }
+17 verbose url raw karma-coffee-preprocessor
+18 verbose url resolving [ 'https://registry.npmjs.org/', './karma-coffee-preprocessor' ]
+19 verbose url resolved https://registry.npmjs.org/karma-coffee-preprocessor
+20 info trying registry request attempt 1 at 11:17:31
+21 verbose etag "D4OA3E858X7Y4VS7EEQAWDGS4"
+22 http GET https://registry.npmjs.org/karma-coffee-preprocessor
+23 http 304 https://registry.npmjs.org/karma-coffee-preprocessor
+24 silly registry.get cb [ 304,
+24 silly registry.get   { date: 'Thu, 19 Jun 2014 15:17:50 GMT',
+24 silly registry.get     server: 'Apache',
+24 silly registry.get     via: '1.1 varnish',
+24 silly registry.get     'last-modified': 'Thu, 19 Jun 2014 15:17:50 GMT',
+24 silly registry.get     'cache-control': 'max-age=30',
+24 silly registry.get     etag: '"D4OA3E858X7Y4VS7EEQAWDGS4"',
+24 silly registry.get     'x-served-by': 'cache-v42-ASH',
+24 silly registry.get     'x-cache': 'MISS',
+24 silly registry.get     'x-cache-hits': '0',
+24 silly registry.get     'x-timer': 'S1403191070.019539,VS0,VE180',
+24 silly registry.get     vary: 'Accept',
+24 silly registry.get     'content-length': '0',
+24 silly registry.get     'keep-alive': 'timeout=10, max=50',
+24 silly registry.get     connection: 'Keep-Alive' } ]
+25 verbose etag karma-coffee-preprocessor from cache
+26 silly addNameRange number 2 { name: 'karma-coffee-preprocessor', range: '*', hasData: true }
+27 silly addNameRange versions [ 'karma-coffee-preprocessor',
+27 silly addNameRange   [ '0.0.1',
+27 silly addNameRange     '0.0.2',
+27 silly addNameRange     '0.0.3',
+27 silly addNameRange     '0.0.4',
+27 silly addNameRange     '0.1.0',
+27 silly addNameRange     '0.1.1',
+27 silly addNameRange     '0.1.2',
+27 silly addNameRange     '0.1.3',
+27 silly addNameRange     '0.2.0',
+27 silly addNameRange     '0.2.1' ] ]
+28 verbose addNamed [ 'karma-coffee-preprocessor', '0.2.1' ]
+29 verbose addNamed [ '0.2.1', '0.2.1' ]
+30 silly lockFile 6ded3663-karma-coffee-preprocessor-0-2-1 karma-coffee-preprocessor@0.2.1
+31 verbose lock karma-coffee-preprocessor@0.2.1 C:\Users\aoeu\AppData\Roaming\npm-cache\6ded3663-karma-coffee-preprocessor-0-2-1.lock
+32 silly lockFile 6ded3663-karma-coffee-preprocessor-0-2-1 karma-coffee-preprocessor@0.2.1
+33 silly lockFile 6ded3663-karma-coffee-preprocessor-0-2-1 karma-coffee-preprocessor@0.2.1
+34 silly lockFile 1283a25a-karma-coffee-preprocessor karma-coffee-preprocessor@
+35 silly lockFile 1283a25a-karma-coffee-preprocessor karma-coffee-preprocessor@
+36 silly resolved [ { name: 'karma-coffee-preprocessor',
+36 silly resolved     version: '0.2.1',
+36 silly resolved     description: 'A Karma plugin. Compile coffee script on the fly.',
+36 silly resolved     main: 'index.js',
+36 silly resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+36 silly resolved     repository:
+36 silly resolved      { type: 'git',
+36 silly resolved        url: 'git://github.com/karma-runner/karma-coffee-preprocessor.git' },
+36 silly resolved     keywords:
+36 silly resolved      [ 'karma-plugin',
+36 silly resolved        'karma-preprocessor',
+36 silly resolved        'coffee-script',
+36 silly resolved        'coffee' ],
+36 silly resolved     author: { name: 'Vojta Jina', email: 'vojta.jina@gmail.com' },
+36 silly resolved     dependencies: { 'coffee-script': '~1.7' },
+36 silly resolved     peerDependencies: { karma: '>=0.11.14' },
+36 silly resolved     license: 'MIT',
+36 silly resolved     devDependencies:
+36 silly resolved      { grunt: '~0.4.1',
+36 silly resolved        'grunt-npm': '~0.0.2',
+36 silly resolved        'grunt-bump': '~0.0.7',
+36 silly resolved        'grunt-auto-release': '~0.0.2' },
+36 silly resolved     contributors: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+36 silly resolved     bugs: { url: 'https://github.com/karma-runner/karma-coffee-preprocessor/issues' },
+36 silly resolved     readme: 'ERROR: No README data found!',
+36 silly resolved     homepage: 'https://github.com/karma-runner/karma-coffee-preprocessor',
+36 silly resolved     _id: 'karma-coffee-preprocessor@0.2.1',
+36 silly resolved     _shasum: 'fbfdf7329ff6e0b1cbfd26b078e70f6d5ce48496',
+36 silly resolved     _from: 'karma-coffee-preprocessor@',
+36 silly resolved     _resolved: 'https://registry.npmjs.org/karma-coffee-preprocessor/-/karma-coffee-preprocessor-0.2.1.tgz' } ]
+37 info install karma-coffee-preprocessor@0.2.1 into c:\Users\aoeu\Documents\GitHub\sexp2html2\build\angular-seed-master
+38 info installOne karma-coffee-preprocessor@0.2.1
+39 info c:\Users\aoeu\Documents\GitHub\sexp2html2\build\angular-seed-master\node_modules\karma-coffee-preprocessor unbuild
+40 info preuninstall karma-coffee-preprocessor@0.1.3
+41 info uninstall karma-coffee-preprocessor@0.1.3
+42 verbose true,c:\Users\aoeu\Documents\GitHub\sexp2html2\build\angular-seed-master\node_modules,c:\Users\aoeu\Documents\GitHub\sexp2html2\build\angular-seed-master\node_modules unbuild karma-coffee-preprocessor@0.1.3
+43 info postuninstall karma-coffee-preprocessor@0.1.3
+44 verbose tar unpack C:\Users\aoeu\AppData\Roaming\npm-cache\karma-coffee-preprocessor\0.2.1\package.tgz
+45 silly lockFile 1e8612b7-odules-karma-coffee-preprocessor tar://c:\Users\aoeu\Documents\GitHub\sexp2html2\build\angular-seed-master\node_modules\karma-coffee-preprocessor
+46 verbose lock tar://c:\Users\aoeu\Documents\GitHub\sexp2html2\build\angular-seed-master\node_modules\karma-coffee-preprocessor C:\Users\aoeu\AppData\Roaming\npm-cache\1e8612b7-odules-karma-coffee-preprocessor.lock
+47 silly lockFile 7d8b195a-e-preprocessor-0-2-1-package-tgz tar://C:\Users\aoeu\AppData\Roaming\npm-cache\karma-coffee-preprocessor\0.2.1\package.tgz
+48 verbose lock tar://C:\Users\aoeu\AppData\Roaming\npm-cache\karma-coffee-preprocessor\0.2.1\package.tgz C:\Users\aoeu\AppData\Roaming\npm-cache\7d8b195a-e-preprocessor-0-2-1-package-tgz.lock
+49 silly gunzTarPerm modes [ '755', '644' ]
+50 silly gunzTarPerm extractEntry package.json
+51 silly gunzTarPerm extractEntry LICENSE
+52 silly gunzTarPerm extractEntry index.js
+53 silly lockFile 1e8612b7-odules-karma-coffee-preprocessor tar://c:\Users\aoeu\Documents\GitHub\sexp2html2\build\angular-seed-master\node_modules\karma-coffee-preprocessor
+54 silly lockFile 1e8612b7-odules-karma-coffee-preprocessor tar://c:\Users\aoeu\Documents\GitHub\sexp2html2\build\angular-seed-master\node_modules\karma-coffee-preprocessor
+55 silly lockFile 7d8b195a-e-preprocessor-0-2-1-package-tgz tar://C:\Users\aoeu\AppData\Roaming\npm-cache\karma-coffee-preprocessor\0.2.1\package.tgz
+56 silly lockFile 7d8b195a-e-preprocessor-0-2-1-package-tgz tar://C:\Users\aoeu\AppData\Roaming\npm-cache\karma-coffee-preprocessor\0.2.1\package.tgz
+57 info preinstall karma-coffee-preprocessor@0.2.1
+58 verbose readDependencies using package.json deps
+59 verbose readDependencies using package.json deps
+60 verbose cache add [ 'coffee-script@~1.7', null ]
+61 verbose cache add name=undefined spec="coffee-script@~1.7" args=["coffee-script@~1.7",null]
+62 verbose parsed url { protocol: null,
+62 verbose parsed url   slashes: null,
+62 verbose parsed url   auth: null,
+62 verbose parsed url   host: null,
+62 verbose parsed url   port: null,
+62 verbose parsed url   hostname: null,
+62 verbose parsed url   hash: null,
+62 verbose parsed url   search: null,
+62 verbose parsed url   query: null,
+62 verbose parsed url   pathname: 'coffee-script@~1.7',
+62 verbose parsed url   path: 'coffee-script@~1.7',
+62 verbose parsed url   href: 'coffee-script@~1.7' }
+63 verbose cache add name="coffee-script" spec="~1.7" args=["coffee-script","~1.7"]
+64 verbose parsed url { protocol: null,
+64 verbose parsed url   slashes: null,
+64 verbose parsed url   auth: null,
+64 verbose parsed url   host: null,
+64 verbose parsed url   port: null,
+64 verbose parsed url   hostname: null,
+64 verbose parsed url   hash: null,
+64 verbose parsed url   search: null,
+64 verbose parsed url   query: null,
+64 verbose parsed url   pathname: '~1.7',
+64 verbose parsed url   path: '~1.7',
+64 verbose parsed url   href: '~1.7' }
+65 verbose addNamed [ 'coffee-script', '~1.7' ]
+66 verbose addNamed [ null, '>=1.7.0-0 <1.8.0-0' ]
+67 silly lockFile 5c1a10ce-coffee-script-1-7 coffee-script@~1.7
+68 verbose lock coffee-script@~1.7 C:\Users\aoeu\AppData\Roaming\npm-cache\5c1a10ce-coffee-script-1-7.lock
+69 silly addNameRange { name: 'coffee-script',
+69 silly addNameRange   range: '>=1.7.0-0 <1.8.0-0',
+69 silly addNameRange   hasData: false }
+70 verbose url raw coffee-script
+71 verbose url resolving [ 'https://registry.npmjs.org/', './coffee-script' ]
+72 verbose url resolved https://registry.npmjs.org/coffee-script
+73 info trying registry request attempt 1 at 11:17:32
+74 verbose etag "7CP6CQQGD9Y4SZO75S0DVYJ18"
+75 http GET https://registry.npmjs.org/coffee-script
+76 http 304 https://registry.npmjs.org/coffee-script
+77 silly registry.get cb [ 304,
+77 silly registry.get   { date: 'Thu, 19 Jun 2014 15:17:50 GMT',
+77 silly registry.get     server: 'Apache',
+77 silly registry.get     via: '1.1 varnish',
+77 silly registry.get     'last-modified': 'Thu, 19 Jun 2014 15:17:50 GMT',
+77 silly registry.get     'cache-control': 'max-age=30',
+77 silly registry.get     etag: '"7CP6CQQGD9Y4SZO75S0DVYJ18"',
+77 silly registry.get     'x-served-by': 'cache-v44-ASH',
+77 silly registry.get     'x-cache': 'HIT',
+77 silly registry.get     'x-cache-hits': '1',
+77 silly registry.get     'x-timer': 'S1403191070.517583,VS0,VE0',
+77 silly registry.get     vary: 'Accept',
+77 silly registry.get     'content-length': '0',
+77 silly registry.get     'keep-alive': 'timeout=10, max=50',
+77 silly registry.get     connection: 'Keep-Alive' } ]
+78 verbose etag coffee-script from cache
+79 silly addNameRange number 2 { name: 'coffee-script',
+79 silly addNameRange   range: '>=1.7.0-0 <1.8.0-0',
+79 silly addNameRange   hasData: true }
+80 silly addNameRange versions [ 'coffee-script',
+80 silly addNameRange   [ '0.7.0',
+80 silly addNameRange     '0.7.1',
+80 silly addNameRange     '0.7.2',
+80 silly addNameRange     '0.9.0',
+80 silly addNameRange     '0.9.1',
+80 silly addNameRange     '0.9.2',
+80 silly addNameRange     '0.9.3',
+80 silly addNameRange     '0.9.4',
+80 silly addNameRange     '0.9.5',
+80 silly addNameRange     '0.9.6',
+80 silly addNameRange     '1.0.0',
+80 silly addNameRange     '1.0.1',
+80 silly addNameRange     '1.1.0',
+80 silly addNameRange     '1.1.1',
+80 silly addNameRange     '1.1.2',
+80 silly addNameRange     '1.1.3',
+80 silly addNameRange     '1.2.0',
+80 silly addNameRange     '1.3.0',
+80 silly addNameRange     '1.3.1',
+80 silly addNameRange     '1.3.2',
+80 silly addNameRange     '1.3.3',
+80 silly addNameRange     '1.4.0',
+80 silly addNameRange     '1.5.0',
+80 silly addNameRange     '1.6.0',
+80 silly addNameRange     '1.6.1',
+80 silly addNameRange     '1.6.2',
+80 silly addNameRange     '1.6.3',
+80 silly addNameRange     '1.7.0',
+80 silly addNameRange     '1.7.1' ] ]
+81 verbose addNamed [ 'coffee-script', '1.7.1' ]
+82 verbose addNamed [ '1.7.1', '1.7.1' ]
+83 silly lockFile 66cb63a1-coffee-script-1-7-1 coffee-script@1.7.1
+84 verbose lock coffee-script@1.7.1 C:\Users\aoeu\AppData\Roaming\npm-cache\66cb63a1-coffee-script-1-7-1.lock
+85 silly lockFile 66cb63a1-coffee-script-1-7-1 coffee-script@1.7.1
+86 silly lockFile 66cb63a1-coffee-script-1-7-1 coffee-script@1.7.1
+87 silly lockFile 5c1a10ce-coffee-script-1-7 coffee-script@~1.7
+88 silly lockFile 5c1a10ce-coffee-script-1-7 coffee-script@~1.7
+89 silly resolved [ { name: 'coffee-script',
+89 silly resolved     description: 'Unfancy JavaScript',
+89 silly resolved     keywords: [ 'javascript', 'language', 'coffeescript', 'compiler' ],
+89 silly resolved     author: { name: 'Jeremy Ashkenas' },
+89 silly resolved     version: '1.7.1',
+89 silly resolved     license: 'MIT',
+89 silly resolved     engines: { node: '>=0.8.0' },
+89 silly resolved     directories: { lib: './lib/coffee-script' },
+89 silly resolved     main: './lib/coffee-script/coffee-script',
+89 silly resolved     bin: { coffee: './bin/coffee', cake: './bin/cake' },
+89 silly resolved     scripts: { test: 'node ./bin/cake test' },
+89 silly resolved     homepage: 'http://coffeescript.org',
+89 silly resolved     bugs: { url: 'https://github.com/jashkenas/coffee-script/issues' },
+89 silly resolved     repository:
+89 silly resolved      { type: 'git',
+89 silly resolved        url: 'git://github.com/jashkenas/coffee-script.git' },
+89 silly resolved     devDependencies:
+89 silly resolved      { 'uglify-js': '~2.2',
+89 silly resolved        jison: '>=0.2.0',
+89 silly resolved        'highlight.js': '~8.0.0',
+89 silly resolved        underscore: '~1.5.2' },
+89 silly resolved     dependencies: { mkdirp: '~0.3.5' },
+89 silly resolved     readme: '            {\n         }   }   {\n        {   {  }  }\n         }   }{  {\n        {  }{  }  }                    _____       __  __\n       { }{ }{  { }                   / ____|     / _|/ _|\n     .- { { }  { }} -.               | |     ___ | |_| |_ ___  ___\n    (  { } { } { } }  )              | |    / _ \\|  _|  _/ _ \\/ _ \\\n    |`-..________ ..-\'|              | |___| (_) | | | ||  __/  __/\n    |                 |               \\_____\\___/|_| |_| \\___|\\___|\n    |                 ;--.\n    |                (__  \\            _____           _       _\n    |                 | )  )          / ____|         (_)     | |\n    |                 |/  /          | (___   ___ _ __ _ _ __ | |_\n    |                 (  /            \\___ \\ / __| \'__| | \'_ \\| __|\n    |                 |/              ____) | (__| |  | | |_) | |_\n    |                 |              |_____/ \\___|_|  |_| .__/ \\__|\n     `-.._________..-\'                                  | |\n                                                        |_|\n\n\n  CoffeeScript is a little language that compiles into JavaScript.\n\n  If you have the Node Package Manager installed:\n  npm install -g coffee-script\n  (Leave off the -g if you don\'t wish to install globally.)\n\n  Or, if you don\'t wish to use npm:\n  sudo bin/cake install\n\n  Execute a script:\n  coffee /path/to/script.coffee\n\n  Compile a script:\n  coffee -c /path/to/script.coffee\n\n  For documentation, usage, and examples, see:\n  http://coffeescript.org/\n\n  To suggest a feature, report a bug, or general discussion:\n  http://github.com/jashkenas/coffee-script/issues/\n\n  If you\'d like to chat, drop by #coffeescript on Freenode IRC,\n  or on webchat.freenode.net.\n\n  The source repository:\n  git://github.com/jashkenas/coffee-script.git\n\n  Top 100 contributors are listed here:\n  http://github.com/jashkenas/coffee-script/contributors\n',
+89 silly resolved     readmeFilename: 'README',
+89 silly resolved     _id: 'coffee-script@1.7.1',
+89 silly resolved     _shasum: '62996a861780c75e6d5069d13822723b73404bfc',
+89 silly resolved     _from: 'coffee-script@~1.7',
+89 silly resolved     _resolved: 'https://registry.npmjs.org/coffee-script/-/coffee-script-1.7.1.tgz' } ]
+90 info install coffee-script@1.7.1 into c:\Users\aoeu\Documents\GitHub\sexp2html2\build\angular-seed-master\node_modules\karma-coffee-preprocessor
+91 info installOne coffee-script@1.7.1
+92 info c:\Users\aoeu\Documents\GitHub\sexp2html2\build\angular-seed-master\node_modules\karma-coffee-preprocessor\node_modules\coffee-script unbuild
+93 verbose tar unpack C:\Users\aoeu\AppData\Roaming\npm-cache\coffee-script\1.7.1\package.tgz
+94 silly lockFile 80e3525c-essor-node-modules-coffee-script tar://c:\Users\aoeu\Documents\GitHub\sexp2html2\build\angular-seed-master\node_modules\karma-coffee-preprocessor\node_modules\coffee-script
+95 verbose lock tar://c:\Users\aoeu\Documents\GitHub\sexp2html2\build\angular-seed-master\node_modules\karma-coffee-preprocessor\node_modules\coffee-script C:\Users\aoeu\AppData\Roaming\npm-cache\80e3525c-essor-node-modules-coffee-script.lock
+96 silly lockFile c27c5cc2--coffee-script-1-7-1-package-tgz tar://C:\Users\aoeu\AppData\Roaming\npm-cache\coffee-script\1.7.1\package.tgz
+97 verbose lock tar://C:\Users\aoeu\AppData\Roaming\npm-cache\coffee-script\1.7.1\package.tgz C:\Users\aoeu\AppData\Roaming\npm-cache\c27c5cc2--coffee-script-1-7-1-package-tgz.lock
+98 silly gunzTarPerm modes [ '755', '644' ]
+99 silly gunzTarPerm extractEntry package.json
+100 silly gunzTarPerm extractEntry .npmignore
+101 silly gunzTarPerm extractEntry README
+102 silly gunzTarPerm extractEntry LICENSE
+103 silly gunzTarPerm extractEntry register.js
+104 silly gunzTarPerm extractEntry CNAME
+105 silly gunzTarPerm extractEntry CONTRIBUTING.md
+106 silly gunzTarPerm extractEntry bin/cake
+107 silly gunzTarPerm extractEntry bin/coffee
+108 silly gunzTarPerm extractEntry lib/coffee-script/browser.js
+109 silly gunzTarPerm extractEntry lib/coffee-script/grammar.js
+110 silly gunzTarPerm extractEntry lib/coffee-script/helpers.js
+111 silly gunzTarPerm extractEntry lib/coffee-script/index.js
+112 silly gunzTarPerm extractEntry lib/coffee-script/lexer.js
+113 silly gunzTarPerm extractEntry lib/coffee-script/command.js
+114 silly gunzTarPerm extractEntry lib/coffee-script/optparse.js
+115 silly gunzTarPerm extractEntry lib/coffee-script/parser.js
+116 silly gunzTarPerm extractEntry lib/coffee-script/register.js
+117 silly gunzTarPerm extractEntry lib/coffee-script/repl.js
+118 silly gunzTarPerm extractEntry lib/coffee-script/rewriter.js
+119 silly gunzTarPerm extractEntry lib/coffee-script/coffee-script.js
+120 silly gunzTarPerm extractEntry lib/coffee-script/scope.js
+121 silly gunzTarPerm extractEntry lib/coffee-script/cake.js
+122 silly gunzTarPerm extractEntry lib/coffee-script/sourcemap.js
+123 silly gunzTarPerm extractEntry lib/coffee-script/nodes.js
+124 silly lockFile 80e3525c-essor-node-modules-coffee-script tar://c:\Users\aoeu\Documents\GitHub\sexp2html2\build\angular-seed-master\node_modules\karma-coffee-preprocessor\node_modules\coffee-script
+125 silly lockFile 80e3525c-essor-node-modules-coffee-script tar://c:\Users\aoeu\Documents\GitHub\sexp2html2\build\angular-seed-master\node_modules\karma-coffee-preprocessor\node_modules\coffee-script
+126 silly lockFile c27c5cc2--coffee-script-1-7-1-package-tgz tar://C:\Users\aoeu\AppData\Roaming\npm-cache\coffee-script\1.7.1\package.tgz
+127 silly lockFile c27c5cc2--coffee-script-1-7-1-package-tgz tar://C:\Users\aoeu\AppData\Roaming\npm-cache\coffee-script\1.7.1\package.tgz
+128 info preinstall coffee-script@1.7.1
+129 verbose readDependencies using package.json deps
+130 verbose readDependencies using package.json deps
+131 verbose cache add [ 'mkdirp@~0.3.5', null ]
+132 verbose cache add name=undefined spec="mkdirp@~0.3.5" args=["mkdirp@~0.3.5",null]
+133 verbose parsed url { protocol: null,
+133 verbose parsed url   slashes: null,
+133 verbose parsed url   auth: null,
+133 verbose parsed url   host: null,
+133 verbose parsed url   port: null,
+133 verbose parsed url   hostname: null,
+133 verbose parsed url   hash: null,
+133 verbose parsed url   search: null,
+133 verbose parsed url   query: null,
+133 verbose parsed url   pathname: 'mkdirp@~0.3.5',
+133 verbose parsed url   path: 'mkdirp@~0.3.5',
+133 verbose parsed url   href: 'mkdirp@~0.3.5' }
+134 verbose cache add name="mkdirp" spec="~0.3.5" args=["mkdirp","~0.3.5"]
+135 verbose parsed url { protocol: null,
+135 verbose parsed url   slashes: null,
+135 verbose parsed url   auth: null,
+135 verbose parsed url   host: null,
+135 verbose parsed url   port: null,
+135 verbose parsed url   hostname: null,
+135 verbose parsed url   hash: null,
+135 verbose parsed url   search: null,
+135 verbose parsed url   query: null,
+135 verbose parsed url   pathname: '~0.3.5',
+135 verbose parsed url   path: '~0.3.5',
+135 verbose parsed url   href: '~0.3.5' }
+136 verbose addNamed [ 'mkdirp', '~0.3.5' ]
+137 verbose addNamed [ null, '>=0.3.5-0 <0.4.0-0' ]
+138 silly lockFile c3f0fe9b-mkdirp-0-3-5 mkdirp@~0.3.5
+139 verbose lock mkdirp@~0.3.5 C:\Users\aoeu\AppData\Roaming\npm-cache\c3f0fe9b-mkdirp-0-3-5.lock
+140 silly addNameRange { name: 'mkdirp', range: '>=0.3.5-0 <0.4.0-0', hasData: false }
+141 verbose url raw mkdirp
+142 verbose url resolving [ 'https://registry.npmjs.org/', './mkdirp' ]
+143 verbose url resolved https://registry.npmjs.org/mkdirp
+144 info trying registry request attempt 1 at 11:17:32
+145 verbose etag "7TU6L0P1XGKTY2X7NVRVU1IMP"
+146 http GET https://registry.npmjs.org/mkdirp
+147 http 304 https://registry.npmjs.org/mkdirp
+148 silly registry.get cb [ 304,
+148 silly registry.get   { date: 'Thu, 19 Jun 2014 15:17:50 GMT',
+148 silly registry.get     server: 'Apache',
+148 silly registry.get     via: '1.1 varnish',
+148 silly registry.get     'last-modified': 'Thu, 19 Jun 2014 15:17:50 GMT',
+148 silly registry.get     'cache-control': 'max-age=30',
+148 silly registry.get     etag: '"7TU6L0P1XGKTY2X7NVRVU1IMP"',
+148 silly registry.get     'x-served-by': 'cache-v36-ASH',
+148 silly registry.get     'x-cache': 'HIT',
+148 silly registry.get     'x-cache-hits': '1',
+148 silly registry.get     'x-timer': 'S1403191070.848058,VS0,VE0',
+148 silly registry.get     vary: 'Accept',
+148 silly registry.get     'content-length': '0',
+148 silly registry.get     'keep-alive': 'timeout=10, max=50',
+148 silly registry.get     connection: 'Keep-Alive' } ]
+149 verbose etag mkdirp from cache
+150 silly addNameRange number 2 { name: 'mkdirp', range: '>=0.3.5-0 <0.4.0-0', hasData: true }
+151 silly addNameRange versions [ 'mkdirp',
+151 silly addNameRange   [ '0.0.1',
+151 silly addNameRange     '0.0.2',
+151 silly addNameRange     '0.0.3',
+151 silly addNameRange     '0.0.4',
+151 silly addNameRange     '0.0.5',
+151 silly addNameRange     '0.0.6',
+151 silly addNameRange     '0.0.7',
+151 silly addNameRange     '0.1.0',
+151 silly addNameRange     '0.2.0',
+151 silly addNameRange     '0.2.1',
+151 silly addNameRange     '0.2.2',
+151 silly addNameRange     '0.3.0',
+151 silly addNameRange     '0.3.1',
+151 silly addNameRange     '0.3.2',
+151 silly addNameRange     '0.3.3',
+151 silly addNameRange     '0.3.4',
+151 silly addNameRange     '0.3.5',
+151 silly addNameRange     '0.4.0',
+151 silly addNameRange     '0.4.1',
+151 silly addNameRange     '0.4.2',
+151 silly addNameRange     '0.5.0' ] ]
+152 verbose addNamed [ 'mkdirp', '0.3.5' ]
+153 verbose addNamed [ '0.3.5', '0.3.5' ]
+154 silly lockFile 67d2df2a-mkdirp-0-3-5 mkdirp@0.3.5
+155 verbose lock mkdirp@0.3.5 C:\Users\aoeu\AppData\Roaming\npm-cache\67d2df2a-mkdirp-0-3-5.lock
+156 silly lockFile 67d2df2a-mkdirp-0-3-5 mkdirp@0.3.5
+157 silly lockFile 67d2df2a-mkdirp-0-3-5 mkdirp@0.3.5
+158 silly lockFile c3f0fe9b-mkdirp-0-3-5 mkdirp@~0.3.5
+159 silly lockFile c3f0fe9b-mkdirp-0-3-5 mkdirp@~0.3.5
+160 silly resolved [ { name: 'mkdirp',
+160 silly resolved     description: 'Recursively mkdir, like `mkdir -p`',
+160 silly resolved     version: '0.3.5',
+160 silly resolved     author:
+160 silly resolved      { name: 'James Halliday',
+160 silly resolved        email: 'mail@substack.net',
+160 silly resolved        url: 'http://substack.net' },
+160 silly resolved     main: './index',
+160 silly resolved     keywords: [ 'mkdir', 'directory' ],
+160 silly resolved     repository:
+160 silly resolved      { type: 'git',
+160 silly resolved        url: 'http://github.com/substack/node-mkdirp.git' },
+160 silly resolved     scripts: { test: 'tap test/*.js' },
+160 silly resolved     devDependencies: { tap: '~0.4.0' },
+160 silly resolved     license: 'MIT',
+160 silly resolved     readme: '# mkdirp\n\nLike `mkdir -p`, but in node.js!\n\n[![build status](https://secure.travis-ci.org/substack/node-mkdirp.png)](http://travis-ci.org/substack/node-mkdirp)\n\n# example\n\n## pow.js\n\n```js\nvar mkdirp = require(\'mkdirp\');\n    \nmkdirp(\'/tmp/foo/bar/baz\', function (err) {\n    if (err) console.error(err)\n    else console.log(\'pow!\')\n});\n```\n\nOutput\n\n```\npow!\n```\n\nAnd now /tmp/foo/bar/baz exists, huzzah!\n\n# methods\n\n```js\nvar mkdirp = require(\'mkdirp\');\n```\n\n## mkdirp(dir, mode, cb)\n\nCreate a new directory and any necessary subdirectories at `dir` with octal\npermission string `mode`.\n\nIf `mode` isn\'t specified, it defaults to `0777 & (~process.umask())`.\n\n`cb(err, made)` fires with the error or the first directory `made`\nthat had to be created, if any.\n\n## mkdirp.sync(dir, mode)\n\nSynchronously create a new directory and any necessary subdirectories at `dir`\nwith octal permission string `mode`.\n\nIf `mode` isn\'t specified, it defaults to `0777 & (~process.umask())`.\n\nReturns the first directory that had to be created, if any.\n\n# install\n\nWith [npm](http://npmjs.org) do:\n\n```\nnpm install mkdirp\n```\n\n# license\n\nMIT\n',
+160 silly resolved     readmeFilename: 'readme.markdown',
+160 silly resolved     bugs: { url: 'https://github.com/substack/node-mkdirp/issues' },
+160 silly resolved     homepage: 'https://github.com/substack/node-mkdirp',
+160 silly resolved     _id: 'mkdirp@0.3.5',
+160 silly resolved     _shasum: 'de3e5f8961c88c787ee1368df849ac4413eca8d7',
+160 silly resolved     _from: 'mkdirp@~0.3.5',
+160 silly resolved     _resolved: 'https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz' } ]
+161 info install mkdirp@0.3.5 into c:\Users\aoeu\Documents\GitHub\sexp2html2\build\angular-seed-master\node_modules\karma-coffee-preprocessor\node_modules\coffee-script
+162 info installOne mkdirp@0.3.5
+163 info c:\Users\aoeu\Documents\GitHub\sexp2html2\build\angular-seed-master\node_modules\karma-coffee-preprocessor\node_modules\coffee-script\node_modules\mkdirp unbuild
+164 verbose tar unpack C:\Users\aoeu\AppData\Roaming\npm-cache\mkdirp\0.3.5\package.tgz
+165 silly lockFile 4e5defde-offee-script-node-modules-mkdirp tar://c:\Users\aoeu\Documents\GitHub\sexp2html2\build\angular-seed-master\node_modules\karma-coffee-preprocessor\node_modules\coffee-script\node_modules\mkdirp
+166 verbose lock tar://c:\Users\aoeu\Documents\GitHub\sexp2html2\build\angular-seed-master\node_modules\karma-coffee-preprocessor\node_modules\coffee-script\node_modules\mkdirp C:\Users\aoeu\AppData\Roaming\npm-cache\4e5defde-offee-script-node-modules-mkdirp.lock
+167 silly lockFile 3c2f11d3-m-cache-mkdirp-0-3-5-package-tgz tar://C:\Users\aoeu\AppData\Roaming\npm-cache\mkdirp\0.3.5\package.tgz
+168 verbose lock tar://C:\Users\aoeu\AppData\Roaming\npm-cache\mkdirp\0.3.5\package.tgz C:\Users\aoeu\AppData\Roaming\npm-cache\3c2f11d3-m-cache-mkdirp-0-3-5-package-tgz.lock
+169 silly gunzTarPerm modes [ '755', '644' ]
+170 silly gunzTarPerm extractEntry package.json
+171 silly gunzTarPerm extractEntry .npmignore
+172 silly gunzTarPerm extractEntry LICENSE
+173 silly gunzTarPerm extractEntry index.js
+174 silly gunzTarPerm extractEntry examples/pow.js
+175 silly gunzTarPerm extractEntry readme.markdown
+176 silly gunzTarPerm extractEntry test/perm.js
+177 silly gunzTarPerm extractEntry test/perm_sync.js
+178 silly gunzTarPerm extractEntry test/race.js
+179 silly gunzTarPerm extractEntry test/rel.js
+180 silly gunzTarPerm extractEntry test/return.js
+181 silly gunzTarPerm extractEntry test/clobber.js
+182 silly gunzTarPerm extractEntry test/root.js
+183 silly gunzTarPerm extractEntry test/umask.js
+184 silly gunzTarPerm extractEntry test/sync.js
+185 silly gunzTarPerm extractEntry test/chmod.js
+186 silly gunzTarPerm extractEntry test/umask_sync.js
+187 silly gunzTarPerm extractEntry test/return_sync.js
+188 silly gunzTarPerm extractEntry test/mkdirp.js
+189 silly gunzTarPerm extractEntry .travis.yml
+190 silly lockFile 4e5defde-offee-script-node-modules-mkdirp tar://c:\Users\aoeu\Documents\GitHub\sexp2html2\build\angular-seed-master\node_modules\karma-coffee-preprocessor\node_modules\coffee-script\node_modules\mkdirp
+191 silly lockFile 4e5defde-offee-script-node-modules-mkdirp tar://c:\Users\aoeu\Documents\GitHub\sexp2html2\build\angular-seed-master\node_modules\karma-coffee-preprocessor\node_modules\coffee-script\node_modules\mkdirp
+192 silly lockFile 3c2f11d3-m-cache-mkdirp-0-3-5-package-tgz tar://C:\Users\aoeu\AppData\Roaming\npm-cache\mkdirp\0.3.5\package.tgz
+193 silly lockFile 3c2f11d3-m-cache-mkdirp-0-3-5-package-tgz tar://C:\Users\aoeu\AppData\Roaming\npm-cache\mkdirp\0.3.5\package.tgz
+194 info preinstall mkdirp@0.3.5
+195 verbose readDependencies using package.json deps
+196 verbose readDependencies using package.json deps
+197 silly resolved []
+198 verbose about to build c:\Users\aoeu\Documents\GitHub\sexp2html2\build\angular-seed-master\node_modules\karma-coffee-preprocessor\node_modules\coffee-script\node_modules\mkdirp
+199 info build c:\Users\aoeu\Documents\GitHub\sexp2html2\build\angular-seed-master\node_modules\karma-coffee-preprocessor\node_modules\coffee-script\node_modules\mkdirp
+200 verbose linkStuff [ false,
+200 verbose linkStuff   false,
+200 verbose linkStuff   false,
+200 verbose linkStuff   'c:\\Users\\aoeu\\Documents\\GitHub\\sexp2html2\\build\\angular-seed-master\\node_modules\\karma-coffee-preprocessor\\node_modules\\coffee-script\\node_modules' ]
+201 info linkStuff mkdirp@0.3.5
+202 verbose linkBins mkdirp@0.3.5
+203 verbose linkMans mkdirp@0.3.5
+204 verbose rebuildBundles mkdirp@0.3.5
+205 info install mkdirp@0.3.5
+206 info postinstall mkdirp@0.3.5
+207 verbose about to build c:\Users\aoeu\Documents\GitHub\sexp2html2\build\angular-seed-master\node_modules\karma-coffee-preprocessor\node_modules\coffee-script
+208 info build c:\Users\aoeu\Documents\GitHub\sexp2html2\build\angular-seed-master\node_modules\karma-coffee-preprocessor\node_modules\coffee-script
+209 verbose linkStuff [ false,
+209 verbose linkStuff   false,
+209 verbose linkStuff   false,
+209 verbose linkStuff   'c:\\Users\\aoeu\\Documents\\GitHub\\sexp2html2\\build\\angular-seed-master\\node_modules\\karma-coffee-preprocessor\\node_modules' ]
+210 info linkStuff coffee-script@1.7.1
+211 verbose linkBins coffee-script@1.7.1
+212 verbose link bins [ { coffee: './bin/coffee', cake: './bin/cake' },
+212 verbose link bins   'c:\\Users\\aoeu\\Documents\\GitHub\\sexp2html2\\build\\angular-seed-master\\node_modules\\karma-coffee-preprocessor\\node_modules\\.bin',
+212 verbose link bins   false ]
+213 verbose linkMans coffee-script@1.7.1
+214 verbose rebuildBundles coffee-script@1.7.1
+215 verbose rebuildBundles [ 'mkdirp' ]
+216 info install coffee-script@1.7.1
+217 info postinstall coffee-script@1.7.1
+218 verbose about to build c:\Users\aoeu\Documents\GitHub\sexp2html2\build\angular-seed-master\node_modules\karma-coffee-preprocessor
+219 info build c:\Users\aoeu\Documents\GitHub\sexp2html2\build\angular-seed-master\node_modules\karma-coffee-preprocessor
+220 verbose linkStuff [ false,
+220 verbose linkStuff   false,
+220 verbose linkStuff   false,
+220 verbose linkStuff   'c:\\Users\\aoeu\\Documents\\GitHub\\sexp2html2\\build\\angular-seed-master\\node_modules' ]
+221 info linkStuff karma-coffee-preprocessor@0.2.1
+222 verbose linkBins karma-coffee-preprocessor@0.2.1
+223 verbose linkMans karma-coffee-preprocessor@0.2.1
+224 verbose rebuildBundles karma-coffee-preprocessor@0.2.1
+225 verbose rebuildBundles [ '.bin', 'coffee-script' ]
+226 info install karma-coffee-preprocessor@0.2.1
+227 info postinstall karma-coffee-preprocessor@0.2.1
+228 verbose readDependencies using package.json deps
+229 verbose already installed skipping karma@>=0.11.14 c:\Users\aoeu\Documents\GitHub\sexp2html2\build\angular-seed-master
+230 silly resolved []
+231 error peerinvalid The package karma-coffee-preprocessor does not satisfy its siblings' peerDependencies requirements!
+231 error peerinvalid Peer karma@0.10.10 wants karma-coffee-preprocessor@~0.1.0
+232 error System Windows_NT 6.1.7601
+233 error command "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "karma-coffee-preprocessor" "--save-dev"
+234 error cwd c:\Users\aoeu\Documents\GitHub\sexp2html2\build\angular-seed-master\test
+235 error node -v v0.10.28
+236 error npm -v 1.4.9
+237 error code EPEERINVALID
+238 verbose exit [ 1, true ]

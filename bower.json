@@ -1,0 +1,23 @@
+{
+  "name": "sexp2html",
+  "version": "0.0.0",
+  "dependencies": {
+    "angular": "1.4.9",
+    "json3": "~3.3.1",
+    "es5-shim": "~3.1.0",
+    "jquery": "~1.11.1",
+    "bootstrap-sass-official": "~3.1.1",
+    "angular-resource": "1.4.9",
+    "angular-cookies": "1.4.9",
+    "angular-sanitize": "1.4.9",
+    "angular-animate": "1.4.9",
+    "angular-touch": "1.4.9",
+    "angular-route": "1.4.9"
+  },
+  "devDependencies": {
+    "angular-mocks": "1.4.9",
+    "jasmine-jquery": "1.7",
+    "angular-scenario": "1.4.9"
+  },
+  "appPath": "app"
+}

@@ -1,0 +1,14 @@
+(function() {
+  'use strict';
+  angular.module('main', ["ngSanitize", "ngRoute", "main.controllers", "tohtml"]).config([
+    '$routeProvider', function($routeProvider) {
+      return $routeProvider.when('/view1', {
+        templateURL: 'main.html',
+        controllers: 'DumbController'
+      });
+    }
+  ]);
+
+}).call(this);
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibWFpbi5qcyIsInNvdXJjZXMiOlsibWFpbi5jb2ZmZWUiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7QUFBQSxFQUFBLFlBQUEsQ0FBQTtBQUFBLEVBTUEsT0FBTyxDQUFDLE1BQVIsQ0FBZSxNQUFmLEVBQXVCLENBQUMsWUFBRCxFQUFlLFNBQWYsRUFBMEIsa0JBQTFCLEVBQThDLFFBQTlDLENBQXZCLENBQ0MsQ0FBQyxNQURGLENBQ1M7SUFBQyxnQkFBRCxFQUFtQixTQUFDLGNBQUQsR0FBQTthQUMxQixjQUFjLENBQUMsSUFBZixDQUFvQixRQUFwQixFQUE4QjtBQUFBLFFBQUMsV0FBQSxFQUFZLFdBQWI7QUFBQSxRQUEwQixXQUFBLEVBQWEsZ0JBQXZDO09BQTlCLEVBRDBCO0lBQUEsQ0FBbkI7R0FEVCxDQU5BLENBQUE7QUFBQSIsInNvdXJjZXNDb250ZW50IjpbIid1c2Ugc3RyaWN0J1xuXG4jcmVxdWlyZSgnYW5ndWxhci9hbmd1bGFyJylcbiNyZXF1aXJlKCdhbmd1bGFyLXJvdXRlL2FuZ3VsYXItcm91dGUnKVxuI3JlcXVpcmUoJ2FuZ3VsYXItc2FuaXRpemUvYW5ndWxhci1zYW5pdGl6ZScpXG4jcmVxdWlyZSgnYW5ndWxhci1jb29raWVzL2FuZ3VsYXItY29va2llcycpXG5hbmd1bGFyLm1vZHVsZSgnbWFpbicsIFtcIm5nU2FuaXRpemVcIiwgXCJuZ1JvdXRlXCIsIFwibWFpbi5jb250cm9sbGVyc1wiLCBcInRvaHRtbFwiXSlcblx0LmNvbmZpZyBbJyRyb3V0ZVByb3ZpZGVyJywgKCRyb3V0ZVByb3ZpZGVyKSAtPlxuXHRcdCRyb3V0ZVByb3ZpZGVyLndoZW4oJy92aWV3MScsIHt0ZW1wbGF0ZVVSTDonbWFpbi5odG1sJywgY29udHJvbGxlcnM6ICdEdW1iQ29udHJvbGxlcid9KVxuXHRdXG4jXHQkcm91dGVQcm92aWRlci53aGVuKCcvJylcbiNjb250cm9sbGVycyA9IHJlcXVpcmUoJy4uL2J1aWxkL2NvbnRyb2xsZXJzJylcblxuI21vZHVsZS5leHBvcnRzID0gLT4gYXBwIl0sInNvdXJjZVJvb3QiOiIvc291cmNlLyJ9

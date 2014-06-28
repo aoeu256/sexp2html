@@ -1,0 +1,19 @@
+nlayers = 16
+grad = 256 / nlayers
+m = 2
+// colors = [#000, #A00, #0A0, #00A]
+
+for i in (0..nlayers)
+	x = grad * i
+	l = i + 1
+	.layer-{i}
+		background-color: RGB(255 - grad*i, 128, 128)
+		color: RGB(0,0,0)
+		border: 1px dotted #AAA
+		padding: 2em
+		font-family: 'Courier'
+
+g = 5
+
+.codeout
+	background-color: red
